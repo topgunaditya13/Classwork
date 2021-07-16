@@ -20,4 +20,9 @@ def game():
       print("Computer wins!!!")
     elif comp_move="paper":
       print("Player wins!!!")      
-game()
+user_input = input("Welcome to rock paper scissors!!! Enter everything here in lowercase. Enter y or n to continue.")
+while True:
+  if user_input = "y":
+    game()
+  if user_input = "n":
+    quit()
