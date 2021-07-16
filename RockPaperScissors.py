@@ -3,5 +3,5 @@ def game():
   move=input("Pick rock, paper, or scissors")
   comp_moves=["rock, paper, scissors"]
   comp_make_a_move = random.choice(comp_moves)
-  if move=comp_make_a_move:  
+  if move=comp_make_a_move:
 game()
